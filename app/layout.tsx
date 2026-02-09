@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-    title: `${site.product} — ${site.name}`,
+    title: `Pre-Seed Round Jan 2026 - ${site.name}`,
     description: site.tagline,
 };
 

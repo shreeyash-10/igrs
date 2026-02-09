@@ -21,13 +21,13 @@ export default function CTA({
                         href="/contact"
                         className="rounded-full border px-5 py-2.5 text-sm font-medium hover:bg-gray-50"
                     >
-                        Request demo
+                        Talk to founders
                     </Link>
                     <Link
-                        href="/government"
+                        href="/security"
                         className="rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-900"
                     >
-                        Government fit
+                        Co-design roadmap
                     </Link>
                 </div>
             </div>

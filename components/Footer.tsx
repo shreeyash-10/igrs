@@ -8,8 +8,11 @@ export default function Footer() {
                 <div>
                     <div className="text-sm font-semibold">{site.name}</div>
                     <p className="mt-2 text-sm text-gray-600">
-                        {site.product} for Government Departments and Public Enterprises.
-                        Omnichannel citizen support with real-time voice call IGRS.
+                        {site.product}. Building Sovereign AI for India through research moat,
+                        India-first infrastructure, and partnership-led enterprise distribution.
+                    </p>
+                    <p className="mt-2 text-sm text-gray-600">
+                        {site.brand}
                     </p>
                 </div>
 
@@ -27,13 +30,13 @@ export default function Footer() {
                 <div>
                     <div className="text-sm font-semibold">Contact</div>
                     <p className="mt-2 text-sm text-gray-600">
-                        For pilots, deployments, and onboarding:
+                        Mission BHARAT: Global platforms are not built for our scale or diversity.
                     </p>
                     <p className="mt-2 text-sm text-gray-600">
-                        Email: <span className="text-gray-900">contact@aiaas-simplified.com</span>
+                        Email: <span className="text-gray-900">{site.contactEmail}</span>
                     </p>
                     <p className="mt-1 text-sm text-gray-600">
-                        India • Government-ready deployments
+                        India-first AI infrastructure and partnerships
                     </p>
                 </div>
             </div>

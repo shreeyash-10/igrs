@@ -1,14 +1,16 @@
 export const site = {
   name: "AiAAS Simplified Pvt Ltd",
-  product: "Intelligent Grievance Redressal System (IGRS)",
+  brand: "powered by Assist.ai",
+  product: "Orchestra: Unified AI Resource Platform",
   tagline:
-    "Omnichannel citizen helpline + real-time voice IGRS for Government Departments and Public Enterprises.",
+    "The AI Orchestration Platform for India. Aggregating top AI startups, compute, and talent into one Orchestra platform while building Sovereign AI.",
+  contactEmail: "vivek@aiaas.com",
   nav: [
-    { href: "/", label: "Home" },
-    { href: "/product", label: "Product" },
-    { href: "/use-cases", label: "Use cases" },
-    { href: "/government", label: "Government fit" },
-    { href: "/security", label: "Security" },
-    { href: "/contact", label: "Contact" },
+    { href: "/", label: "Overview" },
+    { href: "/product", label: "Challenge" },
+    { href: "/government", label: "Solution" },
+    { href: "/use-cases", label: "Market" },
+    { href: "/security", label: "Co-Design" },
+    { href: "/contact", label: "Investment & Leadership" },
   ],
 };

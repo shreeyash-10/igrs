@@ -1,5 +1,6 @@
 import Section from "@/components/Section";
 import Card from "@/components/Card";
+import Stat from "@/components/Stat";
 import CTA from "@/components/CTA";
 
 export default function SecurityPage() {
@@ -7,47 +8,100 @@ export default function SecurityPage() {
         <div>
             <div className="border-b">
                 <div className="mx-auto max-w-screen-2xl px-4 py-14">
-                    <div className="max-w-3xl">
+                    <div className="max-w-4xl">
                         <div className="text-xs font-semibold uppercase tracking-wider text-gray-500">
-                            Security & controls
+                            Hardware x Software Co-Design
                         </div>
                         <h1 className="mt-3 text-4xl font-semibold tracking-tight md:text-5xl">
-                            Security, access control, and audit readiness
+                            Closing the Hardware-Software Gap
                         </h1>
                         <p className="mt-5 text-base leading-relaxed text-gray-600 md:text-lg">
-                            Public systems must be defensible: who accessed what, who changed what, and why. Our approach is to
-                            make security a product feature, not an afterthought—through role-based access, event logs, and
-                            controlled workflows that prevent “silent changes.”
+                            AiAAS co-designs runtime software and infrastructure pathways to deliver lower
+                            latency, stronger cost efficiency, and sovereign deployment readiness for BFSI,
+                            Government, and Telecom workloads.
                         </p>
                     </div>
                 </div>
             </div>
 
             <Section
-                eyebrow="Controls"
-                title="Designed for regulated operational environments"
-                description="Security is not only about encryption; it’s about operational control and traceability."
+                eyebrow="Progress and focus areas"
+                title="Delivery momentum across compute, onboarding, and production"
+                description="The co-design motion is already translating into infrastructure readiness and enterprise pipeline velocity."
             >
                 <div className="grid gap-4 md:grid-cols-3">
+                    <Stat value="3-4 months" label="Sales velocity with expected closure horizon" />
+                    <Stat value="50% cost efficiency" label="Pipeline driver from optimized runtime + infra pairing" />
+                    <Stat value="Q2 onboardings" label="Multiple enterprise onboardings expected in current delivery plan" />
+                </div>
+                <div className="mt-6 grid gap-4 md:grid-cols-2">
                     <Card
-                        title="Role-based access"
-                        description="Restrict actions and visibility by role, department, and geography. Prevent unauthorized edits and data exposure."
+                        title="Pipeline Drivers"
+                        description="Latency wins, cost efficiency, and dialect accuracy are current drivers converting technical differentiation into enterprise outcomes."
                     />
                     <Card
-                        title="Audit logs"
-                        description="Track case changes, assignments, and closures. Make review meetings and audits evidence-driven."
+                        title="Current Status"
+                        description="Compute and hardware partnerships are completed, enabling execution toward live production deployment."
+                    />
+                </div>
+            </Section>
+
+            <Section
+                eyebrow="Live production active pipeline"
+                title="AIAAS runtime and compiler layer"
+                description="Runtime engineering is designed to abstract hardware complexity while maximizing model-serving efficiency."
+            >
+                <div className="grid gap-4 md:grid-cols-2">
+                    <Card
+                        title="Runtime Capabilities"
+                        description="Groq-style optimization for any model with quantization, KV-cache usage, and streaming inference support."
+                        bullets={[
+                            "One API running across multiple hardware targets",
+                            "Graph compilation with kernel fusion and batching",
+                            "Developer-first SDK + profiling + evaluation harness",
+                        ]}
                     />
                     <Card
-                        title="Data governance"
-                        description="Support retention policies, structured fields, and controlled exports. Keep citizen data appropriately handled."
+                        title="Partner Compute Pathways"
+                        description="C-DAC, IITs, and on-prem pods provide access to clusters and specialized accelerators for sovereign-ready enterprise motion."
+                        bullets={[
+                            "Benchmark suites and workload qualification",
+                            "Secure inference and private deployments",
+                            "Enterprise-aligned sovereign rollout patterns",
+                        ]}
+                    />
+                </div>
+            </Section>
+
+            <Section
+                eyebrow="Execution tracks"
+                title="From model development to sovereign serving"
+                description="Co-design translates into clear operating tracks that move programs from research to regulated production."
+            >
+                <div className="grid gap-4 md:grid-cols-2">
+                    <Card
+                        title="Training and Fine-Tuning"
+                        description="Domain model development, evaluation discipline, and iterative optimization for production readiness."
+                    />
+                    <Card
+                        title="Data Pipelines"
+                        description="Safety systems, scoring frameworks, and governance-aware data flows."
+                    />
+                    <Card
+                        title="Edge and On-Prem Sovereign Deployments"
+                        description="Private deployment patterns with auditability, data residency, and governance controls."
+                    />
+                    <Card
+                        title="Inference Acceleration"
+                        description="Low-latency, high-throughput serving for BFSI, Government, and Telecom workloads."
                     />
                 </div>
             </Section>
 
             <div className="mx-auto max-w-screen-2xl px-4 pb-16">
                 <CTA
-                    title="Security requirements vary by department—so we adapt"
-                    description="If you have specific hosting, access, or compliance requirements, we can map the deployment to match. The goal is simple: keep citizen data protected, and keep the operating model auditable."
+                    title="Co-design as core infrastructure strategy"
+                    description="AiAAS is aligning compute pathways, runtime optimization, and sovereign deployment controls to build India-native AI systems at scale."
                 />
             </div>
         </div>
