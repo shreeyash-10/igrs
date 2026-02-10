@@ -6,9 +6,16 @@ export default function Navbar() {
     return (
         <header className="sticky top-0 z-50 border-b border-white/20 bg-white/70 backdrop-blur">
             <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 py-3">
-                <Link href="/" className="flex items-center gap-2">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white shadow-sm">
-                        <Image src="/logo-aiaas.png" alt="AiAAS Simplified" width={28} height={28} />
+                <Link href="/" className="flex items-center gap-3">
+                    <div className="flex h-12 items-center rounded-xl bg-white px-3 shadow-sm">
+                        <Image
+                            src="/logo-aiaas.png"
+                            alt="AiAAS Simplified"
+                            width={140}
+                            height={40}
+                            className="h-8 w-auto"
+                            priority
+                        />
                     </div>
                     <div className="leading-tight">
                         <div className="text-sm font-semibold text-[#0b0f1f]">{site.name}</div>

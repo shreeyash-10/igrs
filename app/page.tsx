@@ -129,8 +129,14 @@ export default function HomePage() {
                         <div className="absolute -right-10 -top-10 h-28 w-28 rounded-2xl bg-white/10 blur-2xl" />
                         <div className="relative rounded-3xl border border-white/15 bg-gradient-to-br from-white/10 via-white/5 to-transparent p-6 shadow-2xl">
                             <div className="flex items-center gap-3">
-                                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white">
-                                    <Image src="/logo-aiaas.png" alt="AiAAS Simplified" width={36} height={36} />
+                                <div className="flex h-12 items-center rounded-2xl bg-white px-3">
+                                    <Image
+                                        src="/logo-aiaas.png"
+                                        alt="AiAAS Simplified"
+                                        width={140}
+                                        height={40}
+                                        className="h-7 w-auto"
+                                    />
                                 </div>
                                 <div>
                                     <div className="text-sm font-semibold">AIGRS Platform</div>

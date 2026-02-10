@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="border-t border-white/30 bg-white">
             <div className="mx-auto grid max-w-screen-2xl gap-8 px-4 py-12 md:grid-cols-3">
                 <div>
-                    <div className="text-sm font-semibold text-[#0b0f1f]">{site.name}</div>
+                    <div className="text-sm font-semibold text-[#0b0f1f]">{site.legalName}</div>
                     <p className="mt-3 text-sm text-[#475569]">
                         {site.tagline}
                     </p>
