@@ -2,8 +2,10 @@
 
 @layer theme {
   :root {
-    --background: #ffffff;
-    --foreground: #171717;
+    --background: #f6f7fb;
+    --foreground: #0b0f1f;
+    --font-manrope: "Manrope", system-ui, -apple-system, sans-serif;
+    --font-space: "Space Grotesk", "Manrope", system-ui, sans-serif;
   }
 }
 
@@ -11,7 +13,49 @@
   body {
     background-color: var(--background);
     color: var(--foreground);
+    font-family: var(--font-manrope);
     antialiased: true;
     /* Tailwind v4 doesn't support @apply in standard CSS blocks usually without postcss-import or similar, but this is cleaner */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-space);
+  }
+}
+
+@layer utilities {
+  @keyframes floatY {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes pulseGlow {
+    0%,
+    100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.9;
+    }
+  }
+
+  .animate-float {
+    animation: floatY 8s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: pulseGlow 6s ease-in-out infinite;
   }
 }
